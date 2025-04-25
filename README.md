@@ -64,3 +64,4 @@ Um site moderno e interativo para criar avatares personalizados, desenvolvido pa
 ## Licença
 
 Este projeto é propriedade do BlaBlaLab. Todos os direitos reservados. # testeavatar
+# testeavatar
