@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avatar e os Blas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvg@3.0.9/lib/umd.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="Logo BlaBlaLab.svg" alt="BlaBlaLab Logo" class="logo">
+        </div>
+        <h1>Chega de Anonimato Cinza</h1> 
+        <p class="subtitle">O avatar genérico — aquele boneco neutro que aparece por padrão <img src="Avatar-01.svg" alt="Avatar Padrão" style="width: 1em; height: em; vertical-align: middle; filter: brightness(0) saturate(100%) invert(70%);"> Ele é o primeiro sinal da falta de expressão em um espaço criado pra conexão. E o mais curioso: muitas plataformas nem sequer oferecem opções de personalização, mas poderiam.</p>
+        <p class="subtitle">No BlaBlaLab, cada experimento conta com diversos ajudantes: os Bla's. Eles fazem parte da nossa identidade, mas abrimos o espaço pra você criar o seu avatar — ou melhor, o seu próprio Bla:</p>
+    </header>
+
+    <main>
+        <section class="generator">
+            <div class="options-container">
+                <div class="option-group">
+                    <h3>Cabeça</h3>
+                    <div id="body-options" class="options"></div>
+                </div>
+
+                <div class="option-group">
+                    <h3>Cor</h3>
+                    <div id="color-options" class="options"></div>
+                </div>
+
+                <div class="option-group">
+                    <h3>Fundo</h3>
+                    <div id="background-options" class="options"></div>
+                </div>
+            </div>
+
+            <div class="preview-container">
+                <div class="preview">
+                    <div id="avatar-preview"></div>
+                </div>
+                <button id="generate-btn" class="generate-button">Baixar Avatar (512x512 PNG)</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://instagram.com/blablalab.wtf" target="_blank" rel="noopener noreferrer">
+                <img src="instagram-logo.svg" alt="Instagram">
+            </a>
+            <a href="https://tiktok.com/@blablalab.wtf" target="_blank" rel="noopener noreferrer">
+                <img src="tiktok-logo.svg" alt="TikTok">
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
