@@ -163,7 +163,7 @@ async function updatePreview() {
         // Aplica cor
         const paths = svgElement.querySelectorAll("path");
         paths.forEach(path => {
-            path.setAttribute("fill", colors[currentState.color] || "#000000");
+            path.setAttribute("fill", colors[currentState.color]);
         });
 
         // Aplica estilo de preview
